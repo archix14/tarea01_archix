@@ -1,5 +1,7 @@
 package EstRepititivas;
 
+import java.util.Scanner;
+
 public class ejer {
     public static void ejercicio_01() {
      int numInit=01;
@@ -24,12 +26,22 @@ public class ejer {
       }
       
     }
-
+    public static void nombrevertical() {
+        Scanner lt=new Scanner(System.in);
+        System.out.println("ingrese su nombre:");
+        String nombre=lt.next();
+        for (int i = 0; i < nombre.length(); i++) {
+            System.out.println(nombre.charAt(i));
+            
+        }
+        
+    }
 
     public static void main(String[] args) {
-        System.out.println("imprime while:"); ejercicio_01();
+        /*System.out.println("imprime while:"); ejercicio_01();
         System.out.println("imprime Do while:"); ejercicio_01();
-        System.out.println("imprime for:"); ejercicio_01();
+        System.out.println("imprime for:"); ejercicio_01();*/
+        nombrevertical();
     }  
     
 }
