@@ -1,4 +1,4 @@
-package Repititivas_01;
+package trabajo_Repititivas;
 
 public class ejercicio_R04 {
     
