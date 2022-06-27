@@ -1,0 +1,7 @@
+    /**
+     * LetraX
+     */
+    public class LetraX {
+    
+        
+    }
