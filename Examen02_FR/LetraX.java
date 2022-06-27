@@ -1,7 +1,0 @@
-    /**
-     * LetraX
-     */
-    public class LetraX {
-    
-        
-    }
