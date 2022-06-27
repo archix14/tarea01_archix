@@ -7,7 +7,7 @@ package pe.edu.upeu.jaqh.Examen;
  */
 public class ejercicio04 {
     Scanner leer=new Scanner(System.in);
-   public void jeercicio4() {
+   public void ejercicio_04() {
     int i, j, suma, sec = 0;
     System.out.println("Ingrese cuantos numeros perfectos desea ver (dentro del rango): ");
     int canti = leer.nextInt();

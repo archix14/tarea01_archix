@@ -5,9 +5,9 @@ package pe.edu.upeu.jaqh.Examen;
 /**
  * ejercicio03
  */
-public class ejercicio3 {
+public class ejercicio03 {
   Scanner leer=new Scanner(System.in);
-   public void ExamenMEFLL3() {
+   public void ExamenFR() {
       int nut;
       System.out.print("ingrese la altura de la X:");
       nut = leer.nextInt();
@@ -23,7 +23,7 @@ public class ejercicio3 {
       }
   }
   public static void main(String[] args) {
-    ejercicio3();   
+    ejercicio03();   
   }
 }
 

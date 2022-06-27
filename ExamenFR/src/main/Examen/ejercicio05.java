@@ -5,10 +5,10 @@ import java.util.Scanner;
 /**
  * ejercicio05
  */
-public class ejercicio5 {
+public class ejercicio05 {
     Scanner leerT=new Scanner(System.in);
 
-    public void ejercicio05() {
+    public void ejercicio_05() {
     
         int n;
         do {
@@ -30,7 +30,7 @@ public class ejercicio5 {
         }
     }
     public static void main(String[] args) {
-        ejercicio5_2();  
+        ejercicio05();  
         
     }
 }

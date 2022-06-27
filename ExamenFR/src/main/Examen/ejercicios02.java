@@ -4,7 +4,7 @@ package pe.edu.upeu.jaqh.Examen;
 
 public class ejercicios02 {
    static Scanner leerT=new Scanner(System.in);
-    public void ejercicio_2() {
+    public void ejercicio_02() {
         //Definir variables
         String cateV="";
         int cantidad=0;
@@ -30,6 +30,6 @@ public class ejercicios02 {
         System.out.println("Impuesto Total de los vehiculos es :"+totalImpV);
     }
     public static void main(String[] args) {
-        ejercicio_02();   
+        ejercicio02();   
     }
 }
