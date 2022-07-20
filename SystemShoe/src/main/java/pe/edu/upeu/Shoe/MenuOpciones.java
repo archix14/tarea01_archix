@@ -1,4 +1,4 @@
-package pe.edu.upeu.cafeteria;
+package pe.edu.upeu.Shoe;
 
 import java.io.Console;
 import pe.edu.upeu.dao.CategoriaDao;
