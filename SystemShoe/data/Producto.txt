@@ -1,0 +1,12 @@
+P1	Espresso
+P2	Americano
+P3	Capuccino
+P4	Chocolate
+P5	Pinha colada
+P6	Platano
+P7	Botella de agua
+P8	Soda
+P9	Agua mineral
+P10	Manzanilla
+P11	Hierbabuena
+P12	Te negro
