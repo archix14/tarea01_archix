@@ -5,3 +5,7 @@ public class ejercicio16 {
         System.out.println("ingrese la dimencion de la matriz"); 
     }
 }
+
+
+
+    
