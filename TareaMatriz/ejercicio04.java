@@ -1,6 +1,8 @@
 public class ejercicio04 {
     
-    private void generador04() {
-        
+    public void generador04() {
+    String[][]matriz;
+    System.out.println("ingrese la dimencion de la matriz");    
     }
-}
+ }
+
