@@ -1,5 +1,84 @@
 # tarea01_archix
-    <properties>
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>upeu.edu.pe</groupId>
+  <artifactId>SysVentasG1</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>SysVentasG1</name>
+  <url>http://maven.apache.org</url>
+	<properties>
 	 <maven.compiler.source>11</maven.compiler.source>
 	 <maven.compiler.target>11</maven.compiler.target>
 	</properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.24</version>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.jansi</groupId>
+      <artifactId>jansi</artifactId>
+      <version>2.3.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+    <dependency>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>itextpdf</artifactId>
+      <version>5.5.13.2</version>
+    </dependency>    
+  </dependencies>
+
+<build> 
+<plugins>
+    <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <executions>
+    <execution>
+    <id>copy-dependencies</id>
+    <phase>prepare-package</phase>
+    <goals>
+    <goal>copy-dependencies</goal>
+    </goals>
+    <configuration>
+    <outputDirectory>${project.build.directory}/lib</outputDirectory>
+    <overWriteReleases>false</overWriteReleases>
+    <overWriteSnapshots>false</overWriteSnapshots>
+    <overWriteIfNewer>true</overWriteIfNewer>
+    </configuration>
+    </execution>
+    </executions>
+    </plugin>
+
+<plugin>
+<!-- Build an executable JAR -->
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-jar-plugin</artifactId>
+<version>2.4</version> 
+<configuration> 
+<archive>
+<manifest>
+      <addClasspath>true</addClasspath>
+      <classpathPrefix>lib/</classpathPrefix>
+    <mainClass>pe.edu.upeu.app.shoe</mainClass> 
+</manifest>
+</archive>
+</configuration>
+</plugin>
+</plugins>
+</build>
+
+</project>

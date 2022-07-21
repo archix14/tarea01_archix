@@ -53,15 +53,17 @@ public class EjerciciosR {
          Scanner lt=new Scanner(System.in);
          System.out.println("ingrese su nombre");
          String nombre=lt.next();
-         for (int i = nombre.length()-1; i >=0, i--){
+         for (int i = nombre.length()-1; i >=0; i--){
           System.out.println(nombre.charAt(i));
-     }
+        }
   
-    public static void main(String[] args) {
-        /*System.out.println("Imprime while:"); imprimirWhileN1_20();
-        System.out.println("Imprime do while:"); imprimirWhileN1_20();
-        System.out.println("imprime For:"); imprimirForN1_20();*/
+    
 
         nombreinverso();
+    
     }
+     public static void main(String[] args) {
+    
+   }
 }
+

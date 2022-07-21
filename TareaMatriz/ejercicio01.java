@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class ejercicio20 {
-  public void generador20() {
-      String[][] matriz;
+  
+  
+    public void generador20() {
+    Scanner cs=new Scanner(System.in);
+     String[][] matriz;
       System.out.println("Ingrese la dimension de la Matriz:");
       int dimension=cs.nextInt();//5
       System.out.println("");
@@ -13,6 +18,7 @@ public class ejercicio20 {
                    valor=valor+1;
                }
           }else{
+             
               for (int fila = matriz.length-1; fila >= 0; fila--) {
                    matriz[fila][columna]=String.valueOf(valor);
                    valor=valor+1;
@@ -22,6 +28,6 @@ public class ejercicio20 {
       imprimirMatriz(matriz);
    } 
    public static void main(String[] args) {
-      ejercicio20().generador20();
+      generador().generador20();
    }
 }  

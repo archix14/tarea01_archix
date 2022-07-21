@@ -6,7 +6,10 @@ public class ejercicio05 {
         int dimension=lt.nextInt();
         System.out.println("ingreso valor inicial:");
         int valor=lt.nextInt();
-        
-    }
-
-}
+        matriz=new String[dimension][dimension];
+        for (int f = (matriz[0].length-1);f >=0; f--){  
+            
+     
+        }
+     }    
+ }
