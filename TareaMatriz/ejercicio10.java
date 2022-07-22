@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class ejercicio10 {
     
     public void generador10() {
+        Scanner CS=new Scanner(System.in);
         String[][] matriz;
         System.out.println("Ingrese la dimesion de Matriz:");
-        int dimension = lt.nextInt();
+        int dimension = CS.nextInt();
         System.out.println("Ingrese el valor inicial:");
-        int valor = lt.nextInt();
+        int valor = CS.nextInt();
         matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = f; c < matriz[f].length; c++) {

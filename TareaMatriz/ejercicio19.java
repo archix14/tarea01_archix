@@ -1,11 +1,12 @@
 public class ejercicio19 {
     
     public void generador19() {
+        Scanner CS=new Scanner(System.in);
         String[][] matriz;
         System.out.println("Ingrese la dimesion de Matriz:");
-        int dimension = lt.nextInt();
+        int dimension = CS.nextInt();
         System.out.println("Ingrese el svalor inicial:");
-        int valor = lt.nextInt();
+        int valor = CS.nextInt();
         matriz = new String[dimension][dimension];
         for (int v = matriz.length - 1; v >= matriz.length / 2; v--) {
             for (int liz = (dimension - 1) - v; liz < v; liz++) {

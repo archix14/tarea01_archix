@@ -1,11 +1,12 @@
 public class ejercicio13 {
     
     public void generador13() {
+        Scanner CS=new Scanner(System.in);
         String[][] matriz;
         System.out.println("Ingrese la dimesion de Matriz:");
-        int dimension = lt.nextInt();
+        int dimension = CS.nextInt();
         System.out.println("Ingrese el  valor inicial:");
-        int valor = lt.nextInt();
+        int valor = CS.nextInt();
         matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             if (f % 2 == 0) {

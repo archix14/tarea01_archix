@@ -1,6 +1,7 @@
 public class ejercicio15 {
     
     public void generador15() {
+        Scanner cs=new Scanner(System.in);
         System.out.println("Ingrese la dimesion de Matriz:");
         int dimension = lt.nextInt();
         System.out.println("Ingrese el valor inicial:");
