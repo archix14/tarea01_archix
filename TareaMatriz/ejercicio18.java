@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class ejercicio18 {
     
     public void generador18() {
@@ -35,6 +33,6 @@ public class ejercicio18 {
     }
     public static void main(String[] args) {
         //ejercicio32/
-        generador().generador18();
+        ejercicio18().generador18();
     }
 }

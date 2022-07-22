@@ -33,7 +33,7 @@ public class ejercicio17 {
     }
    public static void main(String[] args) {
     //ejercicio31//
-    new generador().generador17();
+    new ejercicio17().generador17();
    }
 }
 

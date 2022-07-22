@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class ejercicio10 {
     
     public void generador10() {
@@ -20,7 +18,7 @@ public class ejercicio10 {
     }
     public static void main(String[] args) {
         //ejercicio08//
-        new generador().generador10();
+        new ejercicio10().generador10();
     }
  }  
 

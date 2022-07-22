@@ -16,7 +16,7 @@ public class ejercicio11 {
     }
     public static void main(String[] args) {
         //ejercicio09//
-        new generador().generador11();
+        new ejercicio11().generador11();
     }
 }
 

@@ -27,7 +27,7 @@ public class ejercicio02 {
 
   public static void main(String[] args) {
     //ejercicio22//
-    new generador().generador02();
+    new ejercicio02().generador02();
   }
 }
 

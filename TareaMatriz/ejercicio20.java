@@ -1,8 +1,4 @@
-  
-  /**
-   * ejercicio20
-   */
-  public class ejercicio20 {
+ public class ejercicio20 {
     Scanner CS=new Scanner(System.in);
        private void generador20() {
         System.out.println("Ingrese la dimesion de Matriz:");
@@ -20,7 +16,7 @@
      } 
      public static void main(String[] args) {
         //ejercicio// 17
-        new generador().generador20();
+        new ejercicio20().generador20();
       }   
     }
 
