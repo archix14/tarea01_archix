@@ -2,9 +2,9 @@ public class ejercicio02 {
     
  public void generador02() {
     String[][] matriz;
-    System.out.println("Ingrese dimesion de Matriz:");
+    System.out.println("Ingrese la dimesion de Matriz:");
     int dimension = lt.nextInt();
-    System.out.println("Ingrese valor inicial:");
+    System.out.println("Ingrese el valor inicial:");
     int valor = lt.nextInt();
     matriz = new String[dimension][dimension];
     for (int c = 0; c < matriz[0].length; c++) {

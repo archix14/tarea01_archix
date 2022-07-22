@@ -5,7 +5,7 @@ public class ejercicio20 {
   
     public void generador20() {
         String[][] matriz;
-        System.out.println("Ingrese dimesion de la Matriz:");
+        System.out.println("Ingrese la dimesion de  Matriz:");
         int dimension = lt.nextInt();
         System.out.println("Ingrese el valor inicial:");
         int valor = lt.nextInt();
@@ -28,7 +28,7 @@ public class ejercicio20 {
     }
     public static void main(String[] args) {
         //ejercicio23//
-        new generador().generador1();
+        new generador().generador01();
     }
  }
   

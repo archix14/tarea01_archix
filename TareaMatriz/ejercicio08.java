@@ -1,7 +1,7 @@
 public class ejercicio08 {
     
      public void generador08() {
-          System.out.println("Ingrese dimesion de la Matriz:");
+          System.out.println("Ingrese la dimesion de Matriz:");
           int dimension = lt.nextInt();
           System.out.println("Ingrese el valor inicial:");
           int valor = lt.nextInt();
