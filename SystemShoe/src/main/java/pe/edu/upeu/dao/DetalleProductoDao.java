@@ -39,7 +39,7 @@ public class DetalleProductoDao extends AppCrud {
     public void mostrarCategoria() {
         leerA = new LeerArchivo(TABLA_CATEGORIA);
         Object[][] dataC = listarContenido(leerA);
-        for (int i = 0; i < dataC.length; i++) {
+        for (int i = 0; i < dataC.length; ++i) {
             System.out.print(dataC[i][0] + "=" + dataC[i][1] + ", ");
         }
         System.out.println("");

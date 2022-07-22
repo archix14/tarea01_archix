@@ -1,4 +1,4 @@
-DP1	zapato	unidad	C5	P1	22.0	4.0	99.0	0.0
+DP1	zapato	unidad	C5	P1	22.0	4.0	97.0	0.0
 DP2	botas	unidad	C8	P2	15.0	2.0	97.0	0.0
 DP3	botin	unidad	C7	P3	12.0	2.0	100.0	0.0
 DP4	chancla	unidad	C8	P4	8.0	1.0	98.0	0.0

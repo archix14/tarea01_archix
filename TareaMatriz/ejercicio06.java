@@ -25,6 +25,6 @@ public class ejercicio06 {
             imprimirMatriz(matriz);
         }
         public static void main(String[] args) {
-            
+            //mr//
         }
 }

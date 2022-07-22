@@ -3,22 +3,23 @@ import java.util.Scanner;
 public class ejercicio10 {
     
     public void generador10() {
-        Scanner cs=new Scanner(System.in);
-            System.out.println("Ingrese dimesion de matris:");
-            int dimension = cs.nextInt();
-            System.out.println("Ingrese valor inicial de la matris:");
-            int valor = cs.nextInt();
-            String[][] matriz = new String[dimension][dimension];
-            for (int i = 0; i < matriz.length; i++) {
-                for (int j = 0; j <= i; j++) {
-                    matriz[i][i - j] = String.valueOf(valor);
-                    valor++;
-                }
-            }
-            imprimirMatriz(matriz);
+        String[][] matriz;
+        System.out.println("Ingrese la dimesion de Matriz:");
+        int dimension = lt.nextInt();
+        System.out.println("Ingrese el valor inicial:");
+        int valor = lt.nextInt();
+        matriz = new String[dimension][dimension];
+        for (int f = 0; f < matriz.length; f++) {
+            for (int c = f; c < matriz[f].length; c++) {
+                matriz[f][c] = String.valueOf(valor); 
+                valor++;        
+            }          
         }
-        public static void main(String[] args) {
-            
-        }
-}
+        imprimirMatriz(matriz);
+    }
+    public static void main(String[] args) {
+        //ejercicio08//
+        new generador().generador10();
+    }
+ }  
 
