@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * ejerciciosuma
  */
-public class ejerciciosuma {
+public class ejercicioMultiplicacion {
    public static void suma() {
     Scanner scanner=new Scanner(System.in);
     System.out.println("****TABLA DE MULTIPLICACION");
@@ -16,6 +16,6 @@ public class ejerciciosuma {
     }
  }
  public static void main(String[] args) {
-     ejerciciosuma();
+    ejercicioMultiplicacion();
  }
  }   
